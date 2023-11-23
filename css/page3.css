@@ -1,0 +1,42 @@
+/* banner section */
+.bannerPage3{
+    padding-top: 100px;
+    padding-bottom: 0;
+}
+.bannerPage3 .text {
+    width: 60%;
+    top: 191px;
+    left: 0;
+}
+.bannerPage3 .text h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+
+/* partner section */
+
+.partnersPage3 .image1{
+    background: url(https://sheconnect.no/wp-content/uploads/2023/05/SheConnect-5.jpg) no-repeat center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    object-fit: cover;
+}
+.partnersPage3 .image2{
+    background: url(https://sheconnect.no/wp-content/uploads/2023/05/SheConnect-6.jpg) no-repeat center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    object-fit: cover;
+}
+.partnersPage3 .image3{
+    background: url(https://sheconnect.no/wp-content/uploads/2023/05/SheConnect-7.jpg) no-repeat center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    object-fit: cover;
+}
+.partnersPage3 .partnerInfo{
+    padding: 80px;
+}

@@ -1,0 +1,128 @@
+/* banner section */
+
+.bannerTop h1 {
+    line-height: 5rem;
+}
+.bannerText .text {
+    background: var(--gradient) !important;
+    box-sizing: border-box;
+    padding: 150px 130px;
+    color: #fff;
+    position: absolute;
+    width: 60%;
+    top: 91px;
+    left: 0;
+}
+.banner{
+    padding-bottom: 100px;
+}
+
+/* partners section */
+
+.partners{
+    background-color: var(--color4);
+}
+.partners .image {
+    background: url(https://sheconnect.no/wp-content/uploads/2023/05/0F3A5809-2048x1365-1.jpg) no-repeat center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    object-fit: cover;
+}
+.partners .image1 {
+    background: url(https://sheconnect.no/wp-content/uploads/2023/05/0F3A5744-1024x683-1.jpg) no-repeat center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    object-fit: cover;
+}
+.partners .partnerInfo {
+    box-sizing: border-box;
+    padding: 101px 49px;
+}
+.partners .partnerInfo h2{
+    font-size: 40px;
+    color: var(--color1);
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.partners .partnerInfo p{
+    margin: 0;
+    line-height: 25px;
+}
+
+
+
+/* partners sectionTwo */
+
+
+.partnerSectionTwoTop h1{
+    color: var(--color1);
+    font-size: 50px;
+    padding: 100px 0 50px 0;
+    font-weight: 600;
+}
+.partnersTwo{
+    background-color: var(--color4);
+}
+.partnersTwo .image1{
+    background: url(https://sheconnect.no/wp-content/uploads/2023/05/0F3A5470-scaled-1-e1684274101246.jpg) no-repeat top center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.partnersTwo .image2{
+    background: url(https://sheconnect.no/wp-content/uploads/2023/05/0F3A5565-scaled-1.jpg) no-repeat top center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.partnersTwo .image3{
+    background: url(https://sheconnect.no/wp-content/uploads/2023/05/0F3A5600-scaled-1.jpg) no-repeat top center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.partnersTwo .image4{
+    background: url(https://sheconnect.no/wp-content/uploads/2023/05/0F3A5649-scaled-1.jpg) no-repeat top center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.partnersTwo .image5{
+    background: url(https://sheconnect.no/wp-content/uploads/2023/05/0F3A5684-scaled-1.jpg) no-repeat top center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.partnerDetails{
+    padding: 60px;
+}
+.partnerDetails h2{
+    color: var(--color1);
+    font-size: 40px;
+    font-weight: 600;
+}
+.partnerDetails h3 {
+    color: var(--color1);
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.partnerDetails p{
+    color: var(--color5);
+    letter-spacing: .5px;
+}
+.partnerDetails ul.defultIcons{
+    justify-content: start;
+    margin-top: 35px;
+}
+
+
+
+/* contact section */
+
+.contactExtraWidth{
+    padding: 100px 50px;
+}

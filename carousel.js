@@ -1,0 +1,30 @@
+// owlCarosel
+
+$(".owl-carousel").owlCarousel({
+    items:2.5,
+    loop:true,
+    autoplay:true,
+    autoplayTimeout:5000,
+    smartSpeed:1000,
+    autoplayHoverPause:true,
+    dots:true,
+    dotsEach:1,
+    responsiveClass:true,
+    reponsive:{
+        0:{
+            items:1
+        },
+        425:{
+            items:1
+        },
+        768:{
+            items:1
+        },
+        1024:{
+            items:1
+        },
+        1300:{
+            items:1
+        },
+    }
+})

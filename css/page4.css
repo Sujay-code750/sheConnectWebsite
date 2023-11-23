@@ -1,0 +1,92 @@
+
+
+/* form section */
+
+.formSection .extraWidth{
+    padding: 100px 50px 0 50px;
+}
+
+.formSection .form{
+    background-color: var(--color4);
+}
+.formSection .form .image{
+    background: url(https://sheconnect.no/wp-content/uploads/2023/05/SheConnect-3.jpg) no-repeat top center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    max-width: 100%;
+}
+.formSection .form .formDetails{
+    padding: 80px;
+}
+.formDetails h1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    letter-spacing: .5px;
+}
+.form .formDetails p{
+   font-size: 21px;
+   margin-bottom: 20px;
+}
+.formDetails .defultInput{
+    border: none;
+    padding: 7px 20px;
+    border: 2px solid #e5e5e5;
+    width: 100%;
+    background-color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    min-height: 59px;
+    outline: none;
+    transition: border .4s ease-in-out;
+}
+.formDetails .defultInput:focus{
+    border: 2px solid #cfcece;
+}
+.formDetails .defultTextarea{
+    border: none;
+    padding: 7px 20px;
+    border: 2px solid #e5e5e5;
+    width: 100%;
+    margin-top: 10px;
+    background-color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    min-height: 59;
+    outline: none;
+    transition: border .4s ease-in-out;
+}
+.formDetails .defultTextarea:focus{
+    border: 2px solid #cfcece;
+}
+
+.formDetails a span{
+    display: inline-block;
+    color: white;
+    background: var(--gradient);
+    border: 2px solid var(--color1);
+    padding: 12px 80px;
+    font-size: 18px;
+    font-weight:700;
+    margin-top: 5px;
+    transition: .4s;
+    box-sizing: border-box;
+}
+.formDetails a span:hover{
+    background: var(--gradient1);
+}
+
+
+
+/* service section */
+
+.serviceGridsPage4 .serviceGrid p{
+    font-size: 18px;
+}
+
+/* contact section */
+.contactSection .extraWidthPage4{
+    padding-bottom: 100px;
+}

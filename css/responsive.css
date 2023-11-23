@@ -1,0 +1,82 @@
+@media(max-width:1024px){
+    .bannerTop {
+        padding-bottom: 30px;
+        width: 100%;
+    }
+    .bannerTop h1 {
+        font-size: 45px;
+        line-height: 3.5rem;
+    }
+
+    .bannerText .text {
+        padding: 70px 46px;
+        color: #fff;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    .bannerText .text p {
+        letter-spacing: 0px;
+    }
+    .bannerSection .extraWidth {
+        padding: 0px 20px;
+    }
+    .bannerSection img {
+        width: 100%;
+        height: 600px;
+        object-fit: cover;
+    }
+    .bottomMainText {
+        position: relative;
+        top: 0;
+        right: 0;
+        width: 100%;
+        padding: 55px 45px;
+    }
+    .bannerBottom img {
+        width: 100%;
+    }
+    .bannerBottom img {
+        height: 400px;
+    }
+    .fixedText h1 {
+        font-size: 40px;
+    }
+    .serviceSection {
+        padding: 50px 20px;
+    }
+    .serviceGrid {
+        padding: 25px 30px;
+        margin-bottom: 21px;
+    }
+    .serviceGrid h2 {
+        font-size: 25px;
+        padding: 11px 0;
+    }
+    .carouselSec .fixedText {
+        width: 92%;
+    }
+    .contactSection .extraWidth {
+        padding: 0px 25px;
+    }
+    .contact .text h1 {
+        font-size: 35px;
+    }
+    .contact .text {
+        padding: 110px 50px;
+    }
+    .contact img {
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+
+}
