@@ -1,11 +1,29 @@
 @media(max-width:1024px){
+    .container1 {
+        width: 100% !important;
+    }
+    .menuSection .menu .menuLogo {
+        width: 200px;
+    }
+    .menuSection .menu .menuLink {
+        display: flex;
+        justify-content: end;
+        margin-right: 20px;
+    }
     .bannerTop {
+        padding-top: 60px;
         padding-bottom: 30px;
         width: 100%;
     }
     .bannerTop h1 {
         font-size: 45px;
         line-height: 3.5rem;
+    }
+    .menuSection .menu .menuButton {
+        font-size: 18px;
+    }
+    .menuSection .menu .menuIcon {
+        font-size: 25px;
     }
 
     .bannerText .text {
@@ -24,7 +42,7 @@
     }
     .bannerSection img {
         width: 100%;
-        height: 600px;
+        height: 550px;
         object-fit: cover;
     }
     .bottomMainText {
@@ -63,20 +81,322 @@
     .contact .text h1 {
         font-size: 35px;
     }
-    .contact .text {
-        padding: 110px 50px;
-    }
     .contact img {
         width: 100%;
     }
+    .serviceGridBottom span {
+        margin-top: 0;
+    }
+    .contact .text {
+        padding-top: 50px;
+    }
+    .footerTop img {
+        width: 90%;
+    }
+    .defultIcons li span {
+        height: 38px;
+        width: 38px;
+        font-size: 18px;
+    }
+    .contactSection .extraWidth {
+        padding: 0px 25px 50px 0;
+    }
+    .footerTop {
+        padding: 30px 0;
+    }
+    .carouselSec {
+        padding-top: 60px;
+    }
+    .menuSection .menus {
+        padding: 40px 10px;
+    }
+    .menuSection .menus ul .icon1 {
+        font-size: 20px;
+        padding: 5px 0;
+    }
+    .menuSection .menus ul .icon2 {
+        padding-top: 30px !important;
+    }
+    .menuSection .menus .menuTop span {
+        font-size: 30px;
+        top: -12px;
+        left: 146px;
+    }
+    .menuSection .menus .menuTop h3 {
+        left: 182px;
+        top: 0px;
+        font-size: 23px;
+    }
+    .carousel .newItem{
+        margin-right: 10px;
+    }
+    .banner {
+        padding-bottom: 54px;
+    }
+    .partners .image {
+        padding: 250px 0;
+    }
+    .partners .partnerInfo {
+        box-sizing: border-box;
+        padding: 50px 40px;
+    }
+    .partners .image1 {
+        padding: 250px 0;
+    }
+    .partnerSectionTwoTop h1 {
+        font-size: 42px;
+        padding: 60px 0 40px 0;
+    }
+    .partnersTwo .image1 {
+        padding: 300px 0;
+    }
+    .partnersTwo .image2 {
+        padding: 300px 0;
+    }
+    .partnersTwo .image3 {
+        padding: 300px 0;
+    }
+    .partnersTwo .image4 {
+        padding: 300px 0;
+    }
+    .partnersTwo .image5 {
+        padding: 300px 0;
+    }
+    .bannerPage3 {
+        padding-top: 60px;
+    }
+    .bannerPage3 .text h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .serviceGrid {
+        padding: 40px 30px;
+    }
+    .partners .image1 {
+        padding: 230px;
+    }
+    .partnersPage3 .image2 {
+        padding: 230px 0;
+    }
+    .partnersPage3 .image3 {
+        padding: 220px 0;
+    }
+    .contactSectionPage3 .extraWidth {
+        padding: 50px 20px 50px 20px;
+    }
+    .formSection .extraWidth {
+        padding: 50px 20px 0 20px;
+    }
+    .formSection .form .formDetails {
+        padding: 40px;
+    }
+    .formSection .form .image {
+        background: url(https://sheconnect.no/wp-content/uploads/2023/05/SheConnect-3.jpg) no-repeat top center;
+        height: 100%;
+        background-size: cover;
+
+    }
 
 
+}
+@media(max-width:810px){
+    .menuSection .menu .menuLink {
+        margin-left: 0px;
+    }
+    .menuSection .menus {
+        right: -50%;
+        width: 50%;
+    }
+}
 
+@media(max-width:768px){
+    .menuSection .menu .menuLink {
+        display: block;
+        margin: 0;
+    }
+    .menuSection .menu .menuLogo {
+        width: 150px;
+    }
+    .bannerSection img {
+        height: 527px;
+    }
+    .contact .text {
+        padding: 35px;
+    }
+    .contact img {
+        height: 330px;
+        position: relative;
+        left: 20px;
+    }
+    .contactSection .extraWidth {
+        padding: 0px 20px 50px 0;
+    }
+    .footerTop img {
+        width: 100%;
+    }
+    .menuSection .menus {
+        width: 50%;
+        right: -50%;
+    }
+    .menuSection .menus .menuTop span {
+        left: 175px;
+    }
+    .menuSection .menus .menuTop h3 {
+        left: 207px;
+    }
 
+}
 
-
-
-
-
-
+@media(max-width:430px){
+    .menuSection .menu .menuButton {
+        display: none;
+    }
+    .menuSection .menu .menuIcon {
+        font-size: 25px;
+        margin-left: 102px;
+        font-size: 21px;
+    }
+    .menuSection .menu .menuIcon::before {
+        font-size: 25px;
+    }
+    .menuSection .extraWidth {
+        padding: 0px 20px;
+    }
+    .menuSection .menu .menuLogo {
+        width: 180px;
+    }
+    .bannerTop h1 {
+        font-size: 36px;
+        line-height: 3.0rem;
+        letter-spacing: 0;
+    }
+    .bannerTop {
+        padding-top: 40px;
+        padding-bottom: 10px;
+    }
+    .bannerSection img {
+        height: 300px;
+    }
+    .bannerText .text {
+        padding: 40px 20px;
+    }
+    .bannerText .text p {
+        font-size: 18px;
+    }
+    .bannerBottom img {
+        height: 300px;
+    }
+    .bottomMainText {
+        padding: 30px 20px;
+    }
+    .fixedText h1 {
+        font-size: 34px;
+        margin-bottom: 18px;
+    }
+    .fixedText p {
+        font-size: 19px;
+    }
+    .fixedText h1 {
+        margin-bottom: 0;
+    }
+    .serviceGrids {
+        margin-top: 20px;
+    }
+    .serviceGrid p {
+        font-size: 18px;
+    }
+    .serviceGrid {
+        padding: 30px 30px;
+        margin-bottom: 21px;
+    }
+    .serviceGrid {
+        padding: 30px 30px;
+    }
+    .serviceSection {
+        padding: 50px 20px 30px 20px;
+    }
+    .fixedText p {
+        font-size: 18px;
+    }
+    .carouselSec {
+        padding-top: 50px;
+    }
+    .carouselSec .fixedText {
+        width: 90%;
+    }
+    .carouselSec .extraWidth {
+        padding: 0 0 0 20px;
+    }
+    .contact img {
+        height: 200px;
+        position: relative;
+        left: 0;
+    }
+    .contactSection .extraWidth {
+        padding: 0px 18px 50px 18px;
+    }
+    .contact .text {
+        margin: 0;
+        padding: 35px 35px 35px 20px;
+    }
+    .footerTopSection .extraWidth {
+        padding: 0px 0px;
+    }
+    .footerTop img {
+        width: 90%;
+    }
+    .footerTop {
+        padding: 30px 0;
+        text-align: center;
+    }
+    .defultIcons {
+        margin-bottom: 20px;
+    }
+    .footerTop ul.listTwo {
+        margin: 0;
+    }
+    .footerSection p {
+        font-size: 15px;
+    }
+    .footerTop ul.listTwo {
+        margin-top: 20px;
+    }
+    .footerTop .image {
+        margin-bottom: 20px;
+    }
+    .fixedText h1 {
+        margin-bottom: 20px;
+    }
+    .menuSection .menus {
+        width: 70%;
+        right: -70%;
+    }
+    .menuSection .menus .menuTop span {
+        left: 105px;
+        top: -19px;
+    }
+    .menuSection .menus .menuTop h3 {
+        left: 138px;
+        top: -7px;
+    }
+}
+@media(max-width:390px){
+    .menuSection .menu .menuIcon {
+        margin-left: 81px;
+    }
+}
+@media(max-width:360px){
+    .menuSection .menu .menuIcon {
+        margin-left: 65px;
+    }
+    .menuSection .menus .menuTop span {
+        left: 80px;
+    }
+    .menuSection .menus .menuTop h3 {
+        left: 108px;
+    }
+    .menuSection .menus {
+        width: 80%;
+        right: -80%;
+    }
 }

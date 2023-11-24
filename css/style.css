@@ -13,7 +13,7 @@ a{
     text-decoration: none;
 }
 .container1{
-    width: 1440px !important;
+    width: 76% !important;
     margin: auto;
     background-color: #fff;
 }
@@ -342,7 +342,7 @@ a{
     margin: 30px 0;
 }
 .carouselSec .extraWidth{
-    padding: 0 0 0;
+    padding: 0 0 0 50px;
 }
 .carousel{
     padding: 30px 0 50px 0;
@@ -353,7 +353,7 @@ a{
     background-color: #fff;
     float: left;
     cursor: grab;
-    margin-left: 50px;
+    margin-right: 50px;
 }
 .carousel .itemFooter img{
     height: 80px;

@@ -10,21 +10,21 @@ $(".owl-carousel").owlCarousel({
     dots:true,
     dotsEach:1,
     responsiveClass:true,
-    reponsive:{
+    responsive:{
         0:{
-            items:1
+            items:1,
         },
         425:{
-            items:1
+            items:1,
         },
         768:{
-            items:1
+            items:1.5,
         },
         1024:{
-            items:1
+            items:1,
         },
-        1300:{
-            items:1
-        },
+        1200:{
+            items:2.5,
+        }
     }
 })
