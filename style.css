@@ -266,10 +266,12 @@ a{
 .serviceGrids{
     margin-top: 50px;
 }
-.serviceGrid{
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
-    padding: 40px 32px;
-    box-sizing: border-box;
+.serviceGrid {
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+	padding: 40px 32px;
+	box-sizing: border-box;
+	height: 100%;
+    width: 100%;
 }
 .serviceGrid span {
     color: var(--color1);
