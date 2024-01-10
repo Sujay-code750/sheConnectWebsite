@@ -61,18 +61,22 @@
 .formDetails .defultTextarea:focus{
     border: 2px solid #cfcece;
 }
-
-.formDetails a span{
-    display: inline-block;
-    color: white;
-    background: var(--gradient);
-    border: 2px solid var(--color1);
-    padding: 12px 80px;
-    font-size: 18px;
-    font-weight:700;
-    margin-top: 5px;
-    transition: .4s;
-    box-sizing: border-box;
+.formDetails a{
+    display: block;
+}
+.formDetails a span {
+	display: inline-block;
+	color: white;
+	background: var(--gradient);
+	border: 2px solid var(--color1);
+	padding: 12px 80px;
+	font-size: 18px;
+	font-weight: 700;
+	margin-top: 5px;
+	transition: .4s;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
 }
 .formDetails a span:hover{
     background: var(--gradient1);
